@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+    <h1>DishesApp. Our dishes (GET):</h1>
+    <h2>{{objects}}</h2>
+
+    <h1>Comfortable view (id-name-color-diameter-capacity):</h1>
+    <h2>
+        {{#objects}}
+            {{id}})
+            {{name}}
+            {{color}}
+            {{diameter}}
+            {{capacity}}<br>
+        {{/objects}}
+    </h2>
+
+<!--    <h1>Get plate by Id:</h1>-->
+<!--    <form action="/getPlate" method="POST">-->
+<!--        <h2>Id: <input type="text" name="id" /></h2>-->
+<!--        <h2><input type="submit" /></h2>-->
+<!--    </form>-->
+
+    <h1>Add plate (POST):</h1>
+    <form action="/post" method="POST" object="plate">
+        <h2>Id: <input type="text" name="id" /></h2>
+        <h2>Name: <input type="text" name="name" /></h2>
+        <h2>Color: <input type="text" name="color" /></h2>
+        <h2>Diameter: <input type="text" name="diameter" /></h2>
+        <h2>Capacity: <input type="text" name="capacity" /></h2>
+        <h2><input type="submit" /></h2>
+    </form>
+
+    <h1>Delete plate by Id (DELETE):</h1>
+    <form action="/delete" method="POST">
+        <h2>Id: <input type="text" name="id" /></h2>
+        <h2><input type="submit" /></h2>
+    </form>
+
+    <h1>Update plate (PUT):</h1>
+    <form action="/put" method="POST" object="plate">
+        <h2>Id: <input type="text" name="id" /></h2>
+        <h2>Name: <input type="text" name="name" /></h2>
+        <h2>Color: <input type="text" name="color" /></h2>
+        <h2>Diameter: <input type="text" name="diameter" /></h2>
+        <h2>Capacity: <input type="text" name="capacity" /></h2>
+        <h2><input type="submit" /></h2>
+    </form>
+
+    <h1><a href="/api/dishes">Try RestController</a></h1>
+
+</body>
+</html>
