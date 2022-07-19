@@ -2,9 +2,9 @@
 Laboratory works by the disciplines:
 1) sdt - "Software design tecnologies" (basic knowledge)
 2) cse3 - "Components of software engineering 3. Fluidity and testing of software":
-- Lab1 - Reflection
-- Lab2 - Unit-tests 
-- Lab3 - Mockito
-- Lab4 - MVC
-- Lab6 - Spring Context
-- Lab7 - Spring MVC)
+  - Lab1 - Reflection
+  - Lab2 - Unit-tests 
+  - Lab3 - Mockito
+  - Lab4 - MVC
+  - Lab6 - Spring Context
+  - Lab7 - Spring MVC
